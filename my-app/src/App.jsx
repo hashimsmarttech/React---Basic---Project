@@ -8,7 +8,8 @@ import Test from './components/Test'
 import UseState from './components/UseState';
 import Css from './components/Css';
 import UseEffect from './components/UseEffect';
-import todolist from './components/todolist';
+import Userreducer from './components/Userreducer';
+import Calculator from './components/Calculator';
 function App() {
   return (
     <>
@@ -23,8 +24,15 @@ function App() {
      {/* <UseState/> */}
      {/* <SecondChanllenge/> */}
      {/* <Css/> */}
-    <UseEffect/> 
-     ?
+    {/* <UseEffect/>  */}
+    {/* <Userreducer/> */}
+    <Calculator/>
+
+
+
+
+
+     
      </>
   );
 }

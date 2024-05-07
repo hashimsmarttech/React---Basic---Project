@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-h1{
+/* h1{
   text-align: center;
   color: red;
 }
@@ -14,4 +14,78 @@ h2{
   display: flex;
   justify-content: center;
   
+} */
+
+
+.containor {
+  line-height: 3;
+  background-color: aqua;
+
+}
+
+.calci {
+  width: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px; /* Added missing unit */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.25px; /* Likely meant to be 0.25s for seconds */
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#zero {
+  height: 55px; /* Added missing unit */
+  width: 116px; /* Added missing unit */
+  font-size: 20px; /* Added missing unit */
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#display {
+  background: rgb(151, 137, 137);
+  border-radius: 10px;
+  width: 245px;
+  font-size: 20px; /* Added missing unit */
+  font-family: sans-serif;
+}
+
+.button {
+  width: 55px;
+  height: 50px;
+  padding-top: 1px;
+  font-size: 20px; /* Added missing unit */
+  border: none;
+  background: rgb(182, 178, 178);
+  font-family: sans-serif;
+  font-weight: 300;
+  border: 0;
+  border-radius: 30px;
+  margin-top: 4px;
+  transition: 0.25s; /* Changed to seconds */
+}
+
+h1 {
+  margin-top: 300px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 50px; /* Added missing unit */
+  text-decoration: underline;
+  color: rgb(7, 7, 7);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  color: rgb(1, 1, 1);
+  margin-top: -1px;
+  font-family: sans-serif;
+  margin-left: 3px;
+  color: rgb(206, 66, 66);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+input{
+  background-color: aqua;
 }
